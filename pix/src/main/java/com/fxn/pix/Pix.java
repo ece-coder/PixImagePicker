@@ -741,6 +741,13 @@ public class Pix extends AppCompatActivity implements View.OnTouchListener {
                 }
             }
         });
+
+        findViewById(R.id.close).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onBackPressed();
+            }
+        });
     }
 
     private void setBottomSheetBehavior() {

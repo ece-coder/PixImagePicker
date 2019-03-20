@@ -13,6 +13,18 @@
         android:layout_height="match_parent" />
 
     <ImageView
+        android:id="@+id/close"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top|start"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/circle"
+        android:padding="15dp"
+        android:src="@drawable/ic_x"
+        android:tint="#ffff" />
+
+    <ImageView
         android:id="@+id/front"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -52,7 +64,6 @@
             android:layout_height="@dimen/margin_top"
             android:background="@color/colorPrimaryPix"
             android:translationY="@dimen/margin_top_nve" />
-
 
         <androidx.coordinatorlayout.widget.CoordinatorLayout
             android:id="@+id/main_content"
