@@ -10,14 +10,20 @@
     <io.fotoapparat.view.CameraView
         android:id="@+id/camera_view"
         android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <io.fotoapparat.view.FocusView
+        android:id="@+id/focusView"
+        android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
 
     <ImageView
         android:id="@+id/close"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_gravity="top|start"
-        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="52dp"
         android:background="@drawable/circle"
         android:padding="15dp"
@@ -29,7 +35,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_gravity="top|end"
-        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:layout_marginTop="52dp"
         android:background="@drawable/circle"
         android:padding="11dp"
@@ -41,7 +47,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_gravity="top|end"
-        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:layout_marginTop="102dp"
         android:background="@drawable/circle"
         android:padding="11dp">
